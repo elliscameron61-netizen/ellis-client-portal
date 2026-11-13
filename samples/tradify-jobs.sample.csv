@@ -1,0 +1,5 @@
+Job Number,Customer,Site Name,Site Address,Description,Status,Scheduled Date,Completed Date,Assigned Team,Category
+EE-2001,Example Property Management,Example Heights,"12 Example Road, Sandton",Emergency lighting test on the ground floor,Completed,02/10/2026,02/10/2026,Example Technician A,Testing
+,Example Property Management,Example Warehouse,"4 Sample Street, Johannesburg",Replace damaged isolator label,Completed,15/10/2026,15/10/2026,Example Technician B,Maintenance
+EE-2003,Example Hotel Group,Example Lodge,"8 Sample Lane, Rosebank",Install corridor LED fittings,Scheduled,20/11/2026,,Example Technician B,Installation
+EE-2004,Unknown Customer Ltd,Nowhere Site,1 None Street,This row should be skipped because the client does not exist,Scheduled,01/11/2026,,Unassigned,Other

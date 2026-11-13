@@ -1,0 +1,5 @@
+Invoice Number,Customer,Invoice Date,Due Date,Total,Balance,Status,Job Number,Memo
+INV-EX-5001,Example Property Management,02/10/2026,16/10/2026,"R 1 250.00","R 0.00",Paid,EE-2001,Emergency lighting test
+INV-EX-5002,Example Hotel Group,01/11/2026,15/12/2026,1540.00,1540.00,,EE-2003,Corridor LED fittings
+INV-EX-5003,Example Property Management,20/09/2026,04/10/2026,"1,250.50","625.25",,,"Part payment example with no job number"
+INV-EX-5004,No Such Customer,01/11/2026,15/11/2026,100.00,100.00,Open,,Should skip

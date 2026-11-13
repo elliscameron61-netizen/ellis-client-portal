@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: ellis
+      POSTGRES_PASSWORD: ellis
+      POSTGRES_DB: ellis_portal
+    ports:
+      - "5432:5432"
+    volumes:
+      - ellis_pg:/var/lib/postgresql/data
+      - ./scripts/init-databases.sql:/docker-entrypoint-initdb.d/init-databases.sql
+
+volumes:
+  ellis_pg:
